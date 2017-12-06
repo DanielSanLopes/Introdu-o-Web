@@ -1,0 +1,101 @@
+﻿<DOCTYPE!>
+<html>
+<head>
+
+<link rel="stylesheet" type+"text/css" href="estilo.css" />
+<title>PortifolioDoBomGosto</title>
+
+<SCRIPT type="text/Javascript"> 
+
+        function confere() {    
+        
+        if(document.form1.nome.value == ""){
+            alert("Preencha com seu nome !");
+            document.form1.nome.focus();
+            return false;
+            }
+			
+		if(document.form1.number.value == ""){
+            alert("Preencha com seu Nº de celular !");
+            document.form1.number.focus();
+            return false;
+            }
+                
+        if(document.form1.emailFace.value == ""){
+            alert("Preencha com seu Facebook !");
+            document.form1.emailFace.focus();
+            return false;
+            }
+			
+		if(document.form1.answer.value == ""){
+            alert("Preencha com a sua resposta!");
+            document.form1.answer.focus();
+            return false;
+            }
+		
+               
+
+			
+        return true;
+    }
+</SCRIPT>
+
+</head>
+
+<body>
+
+
+<center>
+<div id="titulo">PORTIFÓLIO DO BOM GOSTO</div>
+<div id="backgroundTitulo">
+</div>
+</center>
+
+<div id="menu">
+Bom gosto para:
+&nbsp <a href="imagens.html">Imagens</a> &nbsp <a href="musicas.html">Músicas</a> 
+&nbsp <a href="videos.html">Vídeos</a> &nbsp <a href="pessoas.html">Pessoas</a> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="ESTE E O INICIO.html"> Home </a>
+</div>
+
+<div id="text1">
+<h1>Pessoas</h1
+</div>
+
+<div id="text2">
+Você. Passa o contatin &nbsp<b><3</b>
+</div>
+
+<form name="form1" onSubmit="return confere()">
+<br>
+Nome: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="nome">
+<br><br>
+
+Whatsapp: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="number">
+<br><br>
+
+Facebook: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="emailFace">
+<br><br>
+		     
+Biscoito ou Bolacha? &nbsp&nbsp&nbsp
+<input type="text" name="answer">
+<br><br>
+		
+<center><input name="submit" type="submit" value="Enviar dados"></center>
+
+</form>
+
+É isso. Capricha na notinha pra gente se ver na formatura &nbsp ;)
+
+<a id="2TOP" href="#top" class="glyphicon5 glyphicon5-chevron-up"> 
+<div id="2Top">Voltar ao topo</div>
+</a>
+
+</body>
+</html>
